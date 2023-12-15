@@ -9,15 +9,15 @@ function renderGamesPanel(data) {
 
 		gameDiv.innerHTML = `
       <div class="team-home-container">
-          <img src="./public/images/${game.team_home_id}.svg" alt="Logo ${game.team_home_name}" />
+          <img src="./src/public/images/${game.team_home_id}.svg" alt="Logo ${game.team_home_name}" />
           <h4>${game.team_home_name}</h4>
           <h3>${game.team_home_score}</h3>
       </div>
 
-      <img src="./public/images/icon-versus.svg" alt="versus ícone" />
+      <img src="./src/public/images/icon-versus.svg" alt="versus ícone" />
 
       <div class="team-away-container">
-          <img src="./public/images/${game.team_away_id}.svg" alt="Logo ${game.team_away_name}" />
+          <img src="./src/public/images/${game.team_away_id}.svg" alt="Logo ${game.team_away_name}" />
           <h4>${game.team_away_name}</h4>
           <h3>${game.team_away_score}</h3>
       </div>
