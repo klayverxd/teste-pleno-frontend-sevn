@@ -19,6 +19,7 @@ img,
 strong,
 label,
 header,
+button,
 nav,
 section {
 	margin: 0;
@@ -36,25 +37,80 @@ section {
 }
 
 body {
-	line-height: 1;
-}
-
-body {
 	height: 100vh;
 
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+
+	line-height: 1;
 }
 
-.games-panel-content {
+header {
+	background-color: #33b667;
+	color: white;
+
+	padding: 1.5em 0;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+}
+
+main {
+	flex: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+
+	gap: 2em;
+}
+
+.games-panel {
+	border-radius: 10px;
+	border: 1px solid #ddd;
+
+	padding: 1em;
+
+	width: 100%;
+	max-width: 340px;
+	max-height: 100%;
+}
+
+.header-games-panel {
+	margin-bottom: 1em;
+
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-.header-games-panel {
+.button-games-panel {
+	width: 30px;
+	height: 30px;
+
+	cursor: pointer;
+}
+
+.button-games-panel:hover {
+	transform: scale(1.1);
+	transition: transform 0.2s ease;
+}
+
+.header-games-panel-content h4 {
+	font-weight: normal;
+}
+
+.header-games-panel-content h5 {
+	text-transform: uppercase;
+}
+
+.games-panel-content {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -68,14 +124,24 @@ body {
 
 .team-home-container,
 .team-away-container {
+	width: 100%;
+
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .team-home-container {
 	flex-direction: row;
+	margin-right: 1em;
 }
 
 .team-away-container {
 	flex-direction: row-reverse;
+	margin-left: 1em;
+}
+
+.solid {
+	border-top: 1px solid #ddd;
+	width: 100%;
 }
