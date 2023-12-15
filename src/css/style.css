@@ -97,6 +97,11 @@ main {
 	cursor: pointer;
 }
 
+#left-button.disabled img,
+#right-button.disabled img {
+	filter: grayscale(100%);
+}
+
 .button-games-panel:hover {
 	transform: scale(1.1);
 	transition: transform 0.2s ease;
