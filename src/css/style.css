@@ -110,8 +110,9 @@ main {
 	text-transform: uppercase;
 }
 
-.games-panel-content {
+#games-panel-content {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -120,6 +121,11 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.game-container {
+	display: flex;
+	width: 100%;
 }
 
 .team-home-container,
@@ -141,7 +147,7 @@ main {
 	margin-left: 1em;
 }
 
-.solid {
+.divider-solid {
 	border-top: 1px solid #ddd;
 	width: 100%;
 }
