@@ -6,7 +6,7 @@
   Sevn Esportes ⚽
 </h3>
 
-<p align="center">Aplicação Web sobre as rodadas do campeonato</p>
+<p align="center">Aplicação Web sobre as rodadas do campeonato.</p>
 
 <p align="center">
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/klayverxd/teste-pleno-frontend-sevn?color=%237844e9">
@@ -26,9 +26,9 @@
 <a href="#-tecnologias">Tecnologias</a>
 </p>
 
-## ✅ Sobre o projeto
+## ✅ Sobre o projeto (🚩[Clique aqui](https://youtu.be/4oUe9C9z7eE) para ver um vídeo de apresentação)
 
-Este projeto é uma aplicação para aplicação da vaga de desenvolvedor front-end na Sevn. A proposta do mesmo foi construir uma interface para visualização das rodadas de um campeonato fictício utilizando HTML, CSS e JS.
+Este projeto é uma aplicação para a vaga de desenvolvedor front-end na Sevn. A proposta do mesmo foi construir uma interface para visualização das rodadas de um campeonato fictício utilizando HTML, CSS e JS.
 
 ## 🚀 Tecnologias
 
